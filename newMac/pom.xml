@@ -51,7 +51,12 @@
       <scope>test</scope>
     </dependency>
 
-
+<!--    You need this dependency or else the program will not start, it will return bean error-->
+    <dependency>
+      <groupId>javax.xml.bind</groupId>
+      <artifactId>jaxb-api</artifactId>
+      <version>2.3.0</version>
+    </dependency>
   </dependencies>
 
   <build>
